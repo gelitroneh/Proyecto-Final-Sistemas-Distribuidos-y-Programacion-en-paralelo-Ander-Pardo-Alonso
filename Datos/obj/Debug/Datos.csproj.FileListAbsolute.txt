@@ -1,0 +1,12 @@
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\Datos.dll.config
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\Datos.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\Datos.pdb
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\EntityFramework.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\EntityFramework.xml
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\obj\Debug\Datos.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Datos\obj\Debug\Datos.pdb

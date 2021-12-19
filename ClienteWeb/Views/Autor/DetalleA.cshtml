@@ -1,0 +1,39 @@
+﻿@model Autores
+@{
+    ViewBag.Title = "Mas Informacion";
+}
+
+<h2>Informacion sobre @Model.Nombre</h2>
+
+<hr />
+
+
+<div class="form-group">
+    <label>Nombre:</label>
+    @Model.Nombre
+</div>
+<div class="form-group">
+    <label>Nacimiento:</label>
+    @Model.Nacimiento
+</div>
+<div class="form-group">
+    <label>Fallecimiento:</label>
+    @Model.Fallecimiento
+</div>
+<div class="form-group">
+    <label>Origen:</label>
+    @Model.Origen
+</div>
+<div class="form-group">
+    <label>Periodo:</label>
+    @Model.Periodo
+</div>
+<div class="form-group">
+    <label>Retrato</label>
+    <br />
+    <!--En detalle la imagen se debe ver mas grande-->
+    <img src="@Model.ImagenAutor" width="300" height="300" />
+</div>
+<div class="form-group">
+    <a href="@Url.Action("Artistas","Autor")">Volver</a>
+</div>

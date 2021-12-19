@@ -1,0 +1,40 @@
+﻿@model Autores
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<h2>Nuevo Artista</h2>
+<hr />
+
+<form method="post" action="@Url.Action("NuevoA","Autor")">
+    <div class="form-group">
+        <label>Nombre</label>
+        @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Nacimiento</label>
+        @Html.TextBoxFor(x => x.Nacimiento, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Fallecimiento</label>
+        @Html.TextBoxFor(x => x.Fallecimiento, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Origen</label>
+        @Html.TextBoxFor(x => x.Origen, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Periodo</label>
+        @Html.TextBoxFor(x => x.Periodo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Imagen</label>
+        @Html.TextBoxFor(x => x.ImagenAutor, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Enviar" />
+        <a href="@Url.Action("Artistas","Autor")">Volver</a>
+    </div>
+</form>
+
+

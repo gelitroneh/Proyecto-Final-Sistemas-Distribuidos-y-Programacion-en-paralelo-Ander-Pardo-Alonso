@@ -1,0 +1,42 @@
+﻿@model Cuadros
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<h2>Nuevo Cuadro</h2>
+<hr />
+
+<form method="post" action="@Url.Action("NuevoC","Cuadro")">
+    <div class="form-group">
+        <label>Titulo</label>
+        @Html.TextBoxFor(x => x.Titulo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Autor</label>
+        @Html.TextBoxFor(x => x.Autor, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Altura(m)</label>
+        @Html.TextBoxFor(x => x.TamañoAlto, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Ancho(m)</label>
+        @Html.TextBoxFor(x => x.TamañoAncho, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Fecha</label>
+        @Html.TextBoxFor(x => x.Fecha_Creacion, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Estilo</label>
+        @Html.TextBoxFor(x => x.Estilo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Imagen</label>
+        @Html.TextBoxFor(x => x.ImagenCuadro, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Enviar" />
+        <a href="@Url.Action("Obras","Cuadro")">Volver</a>
+    </div>
+</form>

@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Museo Atlantico";
+}
+
+<div class="jumbotron" style="background-image: url(http://quees.mobi/wp-content/uploads/2020/05/arte-moderno.jpg)">
+    <h1>
+        MUSEO ATLANTICO
+        <!--Imagen con link-->
+        <a href="https://www.uneatlantico.es/">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLQcsNSEZ3gweh0t-7sv4B12vGrn3-Xl_JFq41o_=s900-c-k-c0x00ffffff-no-rj" width="150" height="150" class="d-inline-block align-top" />
+        </a>
+
+    </h1>
+    <p class="lead" style="color:black">Una puerta hacia diversos mundos</p>
+    <p><a href="https://www.uneatlantico.es/" class="btn btn-primary btn-lg">Conoce uneatlantico</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Artistas</h2>
+        <p>
+            Conoce a los mas grandes maestros de la pintura
+        </p>
+        <p><a href="@Url.Action("Artistas","Autor")" class="btn btn-success right">Artistas</a></p>
+    </div>
+    <div class="col-md-7">
+        <h2>Visita nuestras galerias</h2>
+        <p>Deslumbrate con los mejores cuadros que ha tenido la historia</p>
+        <p><a href="@Url.Action("Obras","Cuadro")" class="btn btn-danger progress-bar-striped ">Cuadros</a></p>
+    </div>
+</div>

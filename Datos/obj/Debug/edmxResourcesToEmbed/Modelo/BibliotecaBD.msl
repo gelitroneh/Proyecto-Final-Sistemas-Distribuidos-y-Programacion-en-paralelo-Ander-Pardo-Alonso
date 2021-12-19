@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GaleriaModelStoreContainer" CdmEntityContainer="BibliotecaConexion">
+    <EntitySetMapping Name="Cuadros">
+      <EntityTypeMapping TypeName="GaleriaModel.Cuadros">
+        <MappingFragment StoreEntitySet="Cuadros">
+          <ScalarProperty Name="ImagenCuadro" ColumnName="ImagenCuadro" />
+          <ScalarProperty Name="IdCuadro" ColumnName="IdCuadro" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+          <ScalarProperty Name="TamañoAlto" ColumnName="TamañoAlto" />
+          <ScalarProperty Name="TamañoAncho" ColumnName="TamañoAncho" />
+          <ScalarProperty Name="Fecha_Creacion" ColumnName="Fecha_Creacion" />
+          <ScalarProperty Name="Estilo" ColumnName="Estilo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Autores">
+      <EntityTypeMapping TypeName="GaleriaModel.Autores">
+        <MappingFragment StoreEntitySet="Autores">
+          <ScalarProperty Name="ImagenAutor" ColumnName="ImagenAutor" />
+          <ScalarProperty Name="IdAutor" ColumnName="IdAutor" />
+          <ScalarProperty Name="Periodo" ColumnName="Periodo" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Fallecimiento" ColumnName="Fallecimiento" />
+          <ScalarProperty Name="Nacimiento" ColumnName="Nacimiento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

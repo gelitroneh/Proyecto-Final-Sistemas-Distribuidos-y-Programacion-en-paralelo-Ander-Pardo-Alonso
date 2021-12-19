@@ -1,0 +1,42 @@
+﻿@model Cuadros
+@{
+    ViewBag.Title = "Mas Informacion";
+}
+
+<h2>Detalle de la obra</h2>
+<hr />
+<div class="form-group">
+    <label>Titulo de la obra:</label>
+    @Model.Titulo
+</div>
+<div class="form-group">
+    <label>Autor</label>
+    @Model.Autor
+</div>
+<div class="form-group">
+    <label>Altura(m)</label>
+    @Model.TamañoAlto
+</div>
+<div class="form-group">
+    <label>Ancho(m)</label>
+    @Model.TamañoAncho
+</div>
+<div class="form-group">
+    <label>Fecha de la creacion del cuadro:</label>
+    @Model.Fecha_Creacion
+</div>
+<div class="form-group">
+    <label>Estilo</label>
+    @Model.Estilo
+</div>
+<div class="form-group">
+    <label>Obra</label>
+    <br />
+    <!--En detalle la imagen se debe ver mas grande-->
+    <img src="@Model.ImagenCuadro" width="300" height="300" />
+</div>
+<div class="form-group">
+    <a href="@Url.Action("Obras","Cuadro")">Volver</a>
+</div>
+
+

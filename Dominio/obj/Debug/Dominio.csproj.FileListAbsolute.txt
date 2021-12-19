@@ -1,0 +1,6 @@
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\bin\Debug\Dominio.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\bin\Debug\Dominio.pdb
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\obj\Debug\Dominio.dll
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\obj\Debug\Dominio.pdb
+C:\Users\ander\OneDrive\Escritorio\ProyectoFinalSolucion\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
